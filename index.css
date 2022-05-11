@@ -1,0 +1,59 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Archivo', sans-serif;
+}
+
+#nav{
+	background-color: #007F81ff;
+}
+
+#footer{
+	background-color: #007F81ff;
+}
+
+#bg1{
+	background-color: #EF9B62ff;
+}
+
+/*
+/* CSS HEX */
+--teal: #007F81ff;
+--white: #FEFEFEff;
+--sandy-brown: #EF9B62ff;
+
+/* CSS HSL */
+--teal: hsla(181, 100%, 25%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--sandy-brown: hsla(24, 82%, 66%, 1);
+
+/* SCSS HEX */
+$teal: #007F81ff;
+$white: #FEFEFEff;
+$sandy-brown: #EF9B62ff;
+
+/* SCSS HSL */
+$teal: hsla(181, 100%, 25%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$sandy-brown: hsla(24, 82%, 66%, 1);
+
+/* SCSS RGB */
+$teal: rgba(0, 127, 129, 1);
+$white: rgba(254, 254, 254, 1);
+$sandy-brown: rgba(239, 155, 98, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-right: linear-gradient(90deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom: linear-gradient(180deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-left: linear-gradient(270deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-top-right: linear-gradient(45deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom-right: linear-gradient(135deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-top-left: linear-gradient(225deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-bottom-left: linear-gradient(315deg, #007F81ff, #FEFEFEff, #EF9B62ff);
+$gradient-radial: radial-gradient(#007F81ff, #FEFEFEff, #EF9B62ff);*/
