@@ -20,13 +20,31 @@ body{
 }
 
 
-#bg1, #bg2, #footer{
-	background-color: #EF9B62ff;
+#bg1, #bg2{
+	background: linear-gradient(0deg, rgba(218,140,14,1) 17%, rgba(195,166,34,1) 39%, rgba(253,156,45,0.9444152661064426) 89%);
 }
 
+#footer{
+	background-color: #EF9B62ff;
+}
 #contact-box{
 	background-color: #1A898Aff;
 }
+
+#about-me, #contacts{
+	background: linear-gradient(90deg, rgba(255,195,155,0.5) 25%, rgba(0,127,129,0.9) 81%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
+	background-color: whitesmoke;
+	background-size: 250vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	background-attachment: fixed;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+/*	opacity: 0.9;*/
+}
+
 
 
 /*
