@@ -11,15 +11,23 @@ body{
 
 #nav{
 	background-color: #007F81ff;
+	text-decoration: none;
 }
 
-#footer{
-	background-color: #007F81ff;
+.mx-2>a {
+   text-decoration: none;
+   color: white;
 }
 
-#bg1{
+
+#bg1, #bg2, #footer{
 	background-color: #EF9B62ff;
 }
+
+#contact-box{
+	background-color: #1A898Aff;
+}
+
 
 /*
 /* CSS HEX */
