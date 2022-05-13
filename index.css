@@ -15,12 +15,19 @@ body{
 }
 
 /* Change the color of links on hover */
-#topnav a:hover {
+#topnav a:hover{
   background-color: #ddd;
   color: black;
   padding-top: 1.4em;
   padding-bottom: 1.4em;
 }
+
+#footer a:hover{
+  background-color: #ddd;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
 
 
 .mx-2>a {
@@ -39,7 +46,17 @@ body{
 /*BACKGROUND COLORS!*/
 
 #bg1, #bg2{
-	background: linear-gradient(0deg, rgba(218,140,14,1) 17%, rgba(195,166,34,1) 39%, rgba(253,156,45,0.9444152661064426) 89%);
+	background: linear-gradient(0deg, rgba(218,140,14,.5) 17%, rgba(195,166,34,0.9) 39%, rgba(253,156,45,0.9444152661064426) 89%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
+	background-color: whitesmoke;
+	background-size: 250vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	background-attachment: fixed;
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	bottom: 0em;
 }
 
 #footer{
@@ -50,7 +67,7 @@ body{
 }
 
 #about-me, #contacts{
-	background: linear-gradient(90deg, rgba(255,195,155,0.5) 25%, rgba(0,127,129,0.9) 81%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
+	background: linear-gradient(90deg, rgba(0,0,0,0.5) 25%, rgba(0,127,129,0.9) 81%), url(https://www.re-thinkingthefuture.com/wp-content/uploads/2020/01/A522-15-PROJECTS-BY-ARCHETYPE-KING-POWER-MAHANAKHON-TOWER-RITZ-CARLTON-RESIDENCES-IMAGE-1.jpg);
 	background-color: whitesmoke;
 	background-size: 250vh;
 	width: 100%;
