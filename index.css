@@ -1,4 +1,4 @@
-/*CSS Reset*/
+CSS Reset*/
 *{
 	margin: 0;
 	padding: 0;
@@ -14,11 +14,29 @@ body{
 	text-decoration: none;
 }
 
+/* Change the color of links on hover */
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
+
 .mx-2>a {
    text-decoration: none;
    color: white;
 }
 
+/* Change the color of links on hover */
+#lsa-logo a:hover {
+  background-color: #ddd;
+  color: black;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+}
+
+/*BACKGROUND COLORS!*/
 
 #bg1, #bg2{
 	background: linear-gradient(0deg, rgba(218,140,14,1) 17%, rgba(195,166,34,1) 39%, rgba(253,156,45,0.9444152661064426) 89%);
@@ -42,9 +60,24 @@ body{
 	background-attachment: fixed;
 	min-height: 80vh;
 	background-repeat: no-repeat;
-/*	opacity: 0.9;*/
+	bottom: 0em;
 }
 
+#slide1, #slide2, #slide3{
+	background: linear-gradient(0deg, rgba(89,89,89,0.7906512946975666) 16%, rgba(233,229,226,0.7598389697675946) 47%, rgba(247,244,239,0.44611347957151615) 80%);
+	padding-bottom: 9em;
+	top: 18em;
+	bottom: 0em;
+	width: 100%;
+	left: 0em;
+
+}
+
+/*Z-Index*/
+
+#id="tools"{
+	z-index: 10;
+}
 
 
 /*
@@ -82,4 +115,4 @@ $gradient-top-right: linear-gradient(45deg, #007F81ff, #FEFEFEff, #EF9B62ff);
 $gradient-bottom-right: linear-gradient(135deg, #007F81ff, #FEFEFEff, #EF9B62ff);
 $gradient-top-left: linear-gradient(225deg, #007F81ff, #FEFEFEff, #EF9B62ff);
 $gradient-bottom-left: linear-gradient(315deg, #007F81ff, #FEFEFEff, #EF9B62ff);
-$gradient-radial: radial-gradient(#007F81ff, #FEFEFEff, #EF9B62ff);*/
+$gradient-radial: radial-gradient(#007F81ff, #FEFEFEff, #EF9B62ff);
